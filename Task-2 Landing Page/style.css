@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background: url("images/bg.jpeg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+    height: 920px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    padding: 20px;
+    font-size: 40px;
+    font-family:"Qwigley", cursive ;
+      }
+      
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header{
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    float: left;
+    padding-left: 0;
+    color: rosybrown;
+    font-family: "Alex Brush", cursive;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 50px;
+}
+.header-left{
+    float: left;
+    padding-left: 50px;
+
+}
+.header-right{
+    padding-top: 20px;
+    float: right;
+}
+.header-right a{
+    float: left;
+    line-height: 65px;
+    padding: 0 30px;
+    color: white;
+    display: block;
+}
+.heading h1{
+    font-family: "Cinzel", serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1;
+    padding-top: 40px;
+    color: wheat;
+    opacity: 0.8;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+
+}
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    color: rgb(180, 134, 15);
+    text-align: center;
+    font-weight: 600;
+
+}
+.top-wrapper.overlay:before{
+    background: rgba(0, 0, 0, 0.45);
+    content: "";
+    position: absolute;
+    height: 920px;
+    min-height: 720px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.top-wrapper p{
+    opacity: 0.9;
+    margin-bottom: 3px;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 50px;
+
+}
+.btn.uppercase{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.btn-primary{
+    color: rgb(238, 186, 238);
+    background-color: rgb(223, 100, 55);
+    border-color: rgb(223, 100, 55);
+}
+.btn-primary:hover{
+    color: black;
+    background-color: rgb(223, 100, 55);
+    border-color: rgb(223, 100, 55);
+}
+.btn-primary:focus{
+    -webkit-box-shadow:0 0 0 0.2rem rgb(216, 76, 25);
+    box-shadow: 0 0 0 0.2rem rgb(216, 76, 25);
+}
+.btn-outline-light{
+    color: beige;
+    background-color: transparent;
+    border-color: beige;
+}
+.btn-outline-light:hover{
+    color: brown;
+    background-color: pink;
+    border-color: pink;
+}
